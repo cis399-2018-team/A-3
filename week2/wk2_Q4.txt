@@ -1,0 +1,5 @@
+ubuntu@ip-10-0-2-181:~$ free
+              total        used        free      shared  buff/cache   available
+Mem:         498436       41072      241252        1744      216112      425764
+Swap:             0           0           0
+

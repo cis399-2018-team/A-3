@@ -1,0 +1,7 @@
+Provide a listing showing all the processes running in one of your instances.
+
+ubuntu@ip-10-0-2-181:~$ ps
+  PID TTY          TIME CMD
+ 1445 pts/0    00:00:00 bash
+ 1489 pts/0    00:00:00 ps
+
