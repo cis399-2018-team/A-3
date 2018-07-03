@@ -1,0 +1,4 @@
+Describe how you find the public IP address of a given instance using the EC2 console. (The public IP address may change whenever an instance is stopped and restarted.)
+
+The 9th Column in the EC2 console has the public IP addresses of an instance.
+When an instance is selected, the instances description window also has the public IP address, located in the second row of the second column.
