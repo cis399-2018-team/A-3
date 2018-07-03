@@ -1,0 +1,9 @@
+Provide the output of a command showing the routing table of your instance.
+
+ash@ash-LM ~/repos/A-3/week2 $ route
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+default         10.0.2.2        0.0.0.0         UG    100    0        0 enp0s3
+10.0.2.0        *               255.255.255.0   U     100    0        0 enp0s3
+link-local      *               255.255.0.0     U     1000   0        0 enp0s3
+
