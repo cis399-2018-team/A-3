@@ -5,9 +5,10 @@
 Instance ID: i-0b18d92543d4c5231
 Private IP: 10.0.2.181
 
-## ##
-:
-:
+##alajaji-ins##
+Instance ID: i-08ef3721c1794bba1 
+Private IP: 10.0.2.73
+
 ## ##
 :
 :
