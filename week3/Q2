@@ -1,0 +1,10 @@
+Stop sshd.
+
+root@ip-10-0-2-32:/etc/puppet# puppet agent -t
+Info: Retrieving pluginfacts
+Info: Retrieving plugin
+Info: Caching catalog for ip-10-0-2-32.us-west-2.compute.internal
+Info: Applying configuration version '1531777052'
+Notice: /Stage[main]/Sshd/Service[ssh]/ensure: ensure changed 'stopped' to 'running'
+Info: /Stage[main]/Sshd/Service[ssh]: Unscheduling refresh on Service[ssh]
+Notice: Finished catalog run in 0.09 seconds

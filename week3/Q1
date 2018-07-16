@@ -1,0 +1,9 @@
+Remove the sshd package.
+
+root@ip-10-0-2-32:/etc/puppet# puppet agent -t
+Info: Retrieving pluginfacts
+Info: Retrieving plugin
+Info: Caching catalog for ip-10-0-2-32.us-west-2.compute.internal
+Info: Applying configuration version '1531777052'
+Notice: /Stage[main]/Sshd/Package[openssh-server]/ensure: created
+Notice: Finished catalog run in 3.06 seconds

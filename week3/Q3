@@ -1,0 +1,11 @@
+Modify or delete /etc/ssh/sshd_config.
+
+root@ip-10-0-2-32:/etc/ssh# puppet agent -t
+Info: Retrieving pluginfacts
+Info: Retrieving plugin
+Info: Caching catalog for ip-10-0-2-32.us-west-2.compute.internal
+Info: Applying configuration version '1531777052'
+Notice: /Stage[main]/Sshd/File[/etc/ssh/sshd_config]/ensure: defined content as '{md5}8383ec31cdeb8b721a56d1e3ea7eb8d5'
+Info: /Stage[main]/Sshd/File[/etc/ssh/sshd_config]: Scheduling refresh of Service[ssh]
+Notice: /Stage[main]/Sshd/Service[ssh]: Triggered 'refresh' from 1 events
+Notice: Finished catalog run in 0.13 seconds
