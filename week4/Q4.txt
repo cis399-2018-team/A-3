@@ -1,1 +1,9 @@
 Describe the results of testing your load balancer when you shut down one, then both, back-end instances, and when you restore them.
+
+If we shut down one of the instances it still serves the expected webpage.
+
+If we shut down both back-end instances, the webpage is no longer accessible, and it gives the error code: a-3-lb-993058420.us-west-2.elb.amazonaws.com is currently unable to handle this request.
+HTTP ERROR 503
+
+If after shutting down both instances, we reboot one of them, the webpage is accessible again.
+Likewise, after turning the second instance back on the webpage is still accessible.
