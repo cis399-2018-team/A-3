@@ -1,0 +1,10 @@
+Indicate the Puppet code you use to replicate content between your web server instances.
+
+	file { "/var/www/html/index.html":
+		source  => "puppet:///modules/apache2/index.html",
+		mode    => 644,
+		owner   => ubuntu,
+		group   => ubuntu,
+		recurse => true,
+		require => Package["apache2"],
+	}	

@@ -1,0 +1,1 @@
+Describe the results of testing your load balancer when you shut down one, then both, back-end instances, and when you restore them.

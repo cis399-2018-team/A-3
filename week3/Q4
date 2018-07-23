@@ -1,0 +1,11 @@
+Modify or delete .ssh/authorized_keys in an instance's user account.
+
+root@ip-10-0-2-32:~/.ssh# puppet agent -t
+Info: Retrieving pluginfacts
+Info: Retrieving plugin
+Info: Caching catalog for ip-10-0-2-32.us-west-2.compute.internal
+Info: Applying configuration version '1531777052'
+Notice: /Stage[main]/Sshd/Ssh_authorized_key[alajaji]/ensure: created
+Notice: /Stage[main]/Sshd/Ssh_authorized_key[alegge]/ensure: created
+Notice: /Stage[main]/Sshd/Ssh_authorized_key[ashears_keypair]/ensure: created
+Notice: Finished catalog run in 0.08 seconds
