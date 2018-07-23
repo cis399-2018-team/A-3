@@ -2,3 +2,8 @@ In addition, find log messages showing accesses to a web page in your web server
 
 ashears_instance:
 10.0.2.28 - - [23/Jul/2018:21:46:43 +0000] "GET / HTTP/1.1" 200 609 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36"
+
+alajaji-ins:
+47.203.95.204 - - [23/Jul/2018:18:43:33 +0000] "GET http://httpheader.net/ HTTP/1.1" 200 554 "-" "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.28) Gecko/20120306 Firefox/3.6.28 (.NET CLR 3.5.30729)"
+
+
