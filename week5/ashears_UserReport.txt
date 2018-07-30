@@ -1,0 +1,116 @@
+Summary:
+
+As of Monday, July 30, 2018, I was able to log in to all non puppet-master instances, except for the vandea-agent1 and vandrea-agent2 instances.
+
+aarcher-agent1: Success
+ssh -i "ashears_keypair.pem" ashears@ec2-52-39-81-191.us-west-2.compute.amazonaws.com
+
+aarcher-agent2: Success
+ssh -i "ashears_keypair.pem" ashears@ec2-54-244-42-209.us-west-2.compute.amazonaws.com
+
+alajaji_instance: Success
+ssh -i "ashears_keypair.pem" ashears@ec2-35-164-136-0.us-west-2.compute.amazonaws.com
+
+alegge_pm: N/A, Puppet Master
+
+alonzo1: Success
+ssh -i "ashears_keypair.pem" ashears@ec2-50-112-227-228.us-west-2.compute.amazonaws.com
+
+alonzo2: Success
+ssh -i "ashears_keypair.pem" ashears@ec2-34-219-91-68.us-west-2.compute.amazonaws.com
+
+ashears_instance:
+ssh -i "ashears_keypair.pem" ashears@ec2-35-163-78-195.us-west-2.compute.amazonaws.com
+
+crestonw-master: N/A, Puppet Master
+
+dbeeman: N/A, Puppet Master
+
+injoker1: N/A, Puppet Master
+
+injoker2: Unable to connect
+ssh -i "ashears_keypair.pem" ashears@ec2-34-221-224-142.us-west-2.compute.amazonaws.com
+
+jbeder2: Success
+ssh -i "ashears_keypair.pem" ashears@ec2-34-216-64-154.us-west-2.compute.amazonaws.com
+
+ktb11: N/A, Puppet Master]
+
+mhagel: Success
+ssh -i "ashears_keypair.pem" ashears@ec2-52-35-202-74.us-west-2.compute.amazonaws.com
+
+mntnttil2: Success
+ssh -i "ashears_keypair.pem" ashears@ec2-34-221-50-206.us-west-2.compute.amazonaws.com
+
+system1-master: N/A, Puppet Master
+
+system2: Success
+ssh -i "ashears_keypair.pem" ashears@ec2-54-149-151-40.us-west-2.compute.amazonaws.com
+
+system3: Success
+ssh -i "ashears_keypair.pem" ashears@ec2-34-219-97-152.us-west-2.compute.amazonaws.com
+
+vandrea-agent1: Unable to connect
+ssh -i "ashears_keypair.pem" ashears@ec2-34-220-127-54.us-west-2.compute.amazonaws.com
+
+vandrea-agent2: Unable to connect
+ssh -i "ashears_keypair.pem" ashears@ec2-34-221-29-8.us-west-2.compute.amazonaws.com
+
+vandrea-PM: N/A, Puppet Master
+
+
+
+Below is an output showing when each user has last logged in.
+
+ [Ash]: lastlog
+Username         Port     From             Latest
+root                                       **Never logged in**
+daemon                                     **Never logged in**
+bin                                        **Never logged in**
+sys                                        **Never logged in**
+sync                                       **Never logged in**
+games                                      **Never logged in**
+man                                        **Never logged in**
+lp                                         **Never logged in**
+mail                                       **Never logged in**
+news                                       **Never logged in**
+uucp                                       **Never logged in**
+proxy                                      **Never logged in**
+www-data                                   **Never logged in**
+backup                                     **Never logged in**
+list                                       **Never logged in**
+irc                                        **Never logged in**
+gnats                                      **Never logged in**
+nobody                                     **Never logged in**
+systemd-timesync                           **Never logged in**
+systemd-network                            **Never logged in**
+systemd-resolve                            **Never logged in**
+systemd-bus-proxy                           **Never logged in**
+syslog                                     **Never logged in**
+_apt                                       **Never logged in**
+lxd                                        **Never logged in**
+messagebus                                 **Never logged in**
+uuidd                                      **Never logged in**
+dnsmasq                                    **Never logged in**
+sshd                                       **Never logged in**
+pollinate                                  **Never logged in**
+ubuntu           pts/0    128.223.223.131  Mon Jul 30 21:37:25 +0000 2018
+puppet                                     **Never logged in**
+alajaji                                    **Never logged in**
+ktb11            pts/1    98.232.224.61    Mon Jul 30 19:25:05 +0000 2018
+alegge           pts/1    128.223.223.135  Mon Jul 30 18:45:03 +0000 2018
+mhagel2                                    **Never logged in**
+dbeeman          pts/0    128.223.223.135  Mon Jul 30 15:32:59 +0000 2018
+injoker          pts/0    128.223.223.4    Mon Jul 30 16:20:09 +0000 2018
+aarcher                                    **Never logged in**
+jbeder1          pts/0    67.189.2.81      Sun Jul 29 16:15:01 +0000 2018
+alonzoCIS399     pts/0    128.223.223.4    Mon Jul 30 17:36:37 +0000 2018
+vohoanvu         pts/0    63.155.166.234   Mon Jul 30 05:59:38 +0000 2018
+mantail          pts/0    63.155.36.72     Mon Jul 30 03:49:23 +0000 2018
+crestonw         pts/0    174.224.12.66    Fri Jul 27 05:59:09 +0000 2018
+ashears          pts/0    128.223.223.131  Mon Jul 30 21:19:10 +0000 2018
+stevev           pts/0    128.223.222.76   Mon Jul 30 21:04:05 +0000 2018
+anosler                                    **Never logged in**
+quinnmil                                   **Never logged in**
+mhernan          pts/2    128.223.57.187   Mon Jul 30 20:04:06 +0000 2018
+
