@@ -1,0 +1,17 @@
+alajaji:x:1001:5054::/home/alajaji:/bin/bash
+ktb11:x:1002:5054::/home/ktb11:/bin/bash
+alegge:x:1003:5054::/home/alegge:/bin/bash
+mhagel2:x:1004:5054::/home/mhagel2:/bin/bash
+dbeeman:x:1005:5054::/home/dbeeman:/bin/bash
+injoker:x:1006:5054::/home/injoker:/bin/bash
+aarcher:x:1007:5054::/home/aarcher:/bin/bash
+jbeder1:x:1008:5054::/home/jbeder1:/bin/bash
+alonzoCIS399:x:1009:5054::/home/alonzoCIS399:/bin/bash
+vohoanvu:x:1010:5054::/home/vohoanvu:/bin/bash
+mantail:x:1011:5054::/home/mantail:/bin/bash
+crestonw:x:1012:5054::/home/crestonw:/bin/bash
+ashears:x:1013:5054::/home/ashears:/bin/bash
+stevev:x:1014:5054::/home/stevev:/bin/bash
+anosler:x:1015:5054::/home/anosler:/bin/bash
+quinnmil:x:1016:5054::/home/quinnmil:/bin/bash
+mhernan:x:1017:5054::/home/mhernan:/bin/bash
