@@ -1,0 +1,52 @@
+#alajaji_ins:
+
+Username         Port     From             Latest
+root                                       **Never logged in**
+daemon                                     **Never logged in**
+bin                                        **Never logged in**
+sys                                        **Never logged in**
+sync                                       **Never logged in**
+games                                      **Never logged in**
+man                                        **Never logged in**
+lp                                         **Never logged in**
+mail                                       **Never logged in**
+news                                       **Never logged in**
+uucp                                       **Never logged in**
+proxy                                      **Never logged in**
+www-data                                   **Never logged in**
+backup                                     **Never logged in**
+list                                       **Never logged in**
+irc                                        **Never logged in**
+gnats                                      **Never logged in**
+nobody                                     **Never logged in**
+systemd-timesync                           **Never logged in**
+systemd-network                            **Never logged in**
+systemd-resolve                            **Never logged in**
+systemd-bus-proxy                           **Never logged in**
+syslog                                     **Never logged in**
+_apt                                       **Never logged in**
+lxd                                        **Never logged in**
+messagebus                                 **Never logged in**
+uuidd                                      **Never logged in**
+dnsmasq                                    **Never logged in**
+sshd                                       **Never logged in**
+pollinate                                  **Never logged in**
+ubuntu           pts/3    207.189.30.164   Mon Jul 30 21:36:08 +0000 2018
+puppet                                     **Never logged in**
+alajaji          pts/3    207.189.30.164   Mon Jul 30 21:35:05 +0000 2018
+ktb11            pts/0    98.232.224.61    Mon Jul 30 19:25:56 +0000 2018
+alegge           pts/1    128.223.223.131  Mon Jul 30 19:38:03 +0000 2018
+mhagel2          pts/3    128.223.223.131  Mon Jul 30 21:16:56 +0000 2018
+dbeeman          pts/0    128.223.223.135  Mon Jul 30 15:33:21 +0000 2018
+injoker          pts/0    128.223.223.4    Mon Jul 30 16:22:27 +0000 2018
+aarcher          pts/0    73.180.24.167    Mon Jul 30 06:26:47 +0000 2018
+jbeder1          pts/0    67.189.2.81      Sun Jul 29 16:13:32 +0000 2018
+alonzoCIS399                               **Never logged in**
+vohoanvu         pts/0    63.155.166.234   Mon Jul 30 05:53:59 +0000 2018
+mantail          pts/0    63.155.36.72     Mon Jul 30 03:47:30 +0000 2018
+crestonw         pts/0    174.224.6.239    Mon Jul 30 07:03:58 +0000 2018
+ashears                                    **Never logged in**
+stevev           pts/2    128.223.222.76   Mon Jul 30 21:02:48 +0000 2018
+anosler                                    **Never logged in**
+quinnmil         pts/1    128.223.223.135  Mon Jul 30 20:07:46 +0000 2018
+mhernan          pts/1    128.223.57.187   Mon Jul 30 20:03:03 +0000 2018
